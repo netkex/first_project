@@ -1,3 +1,4 @@
 fun main() {
-    println("kek")
+    var n = readLine()!!.toInt()
+    println("square of $n is ${n * n}")
 }
